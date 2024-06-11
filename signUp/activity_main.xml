@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="SIGNUP ACTIVITY"
+
+        android:textAlignment="center"
+
+        android:textColor="#4052B8"
+
+        android:textSize="30sp"/>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/uid1"
+
+        android:hint="Enter Your User Name"
+
+        android:textAlignment="center"/>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/pwd1"
+
+        android:hint="Enter Your Password"
+
+        android:inputType="textPassword"
+
+        android:textAlignment="center"/>
+
+
+    <Button
+
+        style="@style/Widget.AppCompat.Button"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#2196F3"
+
+        android:onClick="signUp"
+        android:text="SignUp" />
+
+
+</LinearLayout>
